@@ -1,0 +1,247 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Jost', sans-serif; 
+
+colours: 
+black #292F36
+yellow #CDA274
+
+*/
+
+
+/* html {
+    width:  1200px;
+    margin: 0 auto;
+} */
+
+/* header */
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width:  1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'Jost', sans-serif;
+    color:#292F36;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+}
+
+nav a:hover {
+    color:#CDA274;
+}
+
+
+/* promo section */
+
+main {
+    color: #292F36;
+}
+
+h1 {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+}
+
+.promo {
+    background-image: url(/img/bg-promo.png);
+    height: 830px;
+}
+
+h1+p {
+    font-family: 'Jost', sans-serif; 
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.promo button {
+    font-family: 'Jost', sans-serif; 
+    width: 208px;
+    height: 70px;
+    box-sizing: border-box;
+    background: #292F36;
+    color: #fff;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+}
+
+.about {
+    width:  1200px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+
+.about p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+
+.about figure {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.about a {
+    color: #292F36;
+}
+
+.about a:hover {
+    color:#CDA274;
+}
+
+.about li {
+    width: 30%;
+}
+
+.about ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+    padding: 80px 0;
+}
+
+/* contact us section*/
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    width:  1200px;
+    margin: 0 auto;
+}
+
+.contact-us h2 {
+    font-family: 'DM Serif Display';
+    width: 450px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    margin: 0 0 44px 0;
+}
+
+.contact-us p {
+    font-family: 'Jost';
+    width: 530px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    margin: 0;
+}
+
+.phone-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+    margin: 46px 0 0 0;
+}
+
+.phone-us img {
+    margin: 0 20px 0 0;
+}
+
+.phone-num a {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.contact-us button {
+    font-family: 'Jost';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;   
+    letter-spacing: 0.72px;
+    box-sizing: border-box;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+    width: 260px;
+    height: 70px;
+    margin: 56px 0 0 0;
+}
+
+.peple-opinions {
+    margin: 100px auto;
+    width: 1200px;
+    height: 675px;
+    background: #F4F0EC;
+    border-radius: 70px;
+    padding: 102px 50px 0 50px;
+}
+
+.peple-opinions h2 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+}
+
+.peple-opinions li {
+    width: 354px;
+    height: 288px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.peple-opinions ul {
+    display: flex;
+    justify-content: space-between;
+}
